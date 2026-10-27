@@ -1,0 +1,8 @@
+﻿ order_id , date , region , product , quantity , unit_price , discount_pct
+2001,2026-05-04,  north  ,Webcam,1,39.99,
+2002,2026-05-06,East,Wireless Mouse,two,24.50,0
+2003,2026-05-09,East,Laptop Stand,1,N/A,0
+2004,2026-05-11,West,Monitor Arm,1,65.00,ten
+2005,2026-05-15,South,Mechanical Keyboard,1,89.00,5
+2006,05/18/2026,South,USB-C Cable,4,2.50,0
+2007,2026-05-20,  north  ,USB-C Cable,3,2.50,15

@@ -1,0 +1,57 @@
+{
+  "filters": {
+    "start_date": null,
+    "end_date": null
+  },
+  "summary": {
+    "total_revenue": "130.92",
+    "order_count": 3,
+    "line_item_count": 3,
+    "units_sold": 5,
+    "average_order_value": "43.64",
+    "first_sale_date": "2026-05-04",
+    "last_sale_date": "2026-05-20"
+  },
+  "revenue_by_region": {
+    "North": "46.37",
+    "South": "84.55"
+  },
+  "revenue_by_month": {
+    "2026-05": "130.92"
+  },
+  "top_products": [
+    {
+      "product": "Mechanical Keyboard",
+      "units_sold": 1,
+      "revenue": "84.55"
+    },
+    {
+      "product": "Webcam",
+      "units_sold": 1,
+      "revenue": "39.99"
+    },
+    {
+      "product": "USB-C Cable",
+      "units_sold": 3,
+      "revenue": "6.38"
+    }
+  ],
+  "skipped_rows": [
+    {
+      "line": 3,
+      "reason": "quantity is not a whole number: 'two'"
+    },
+    {
+      "line": 4,
+      "reason": "unit_price is not a number: 'N/A'"
+    },
+    {
+      "line": 5,
+      "reason": "discount_pct is not a number: 'ten'"
+    },
+    {
+      "line": 7,
+      "reason": "date is not in YYYY-MM-DD format: '05/18/2026'"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Optional developer tools. Not needed to run the app or the tests
+# (the tests are plain unittest and run with `python -m unittest`).
+pytest>=8.0

@@ -1,0 +1,66 @@
+{
+  "filters": {
+    "start_date": null,
+    "end_date": null
+  },
+  "summary": {
+    "total_revenue": "1492.41",
+    "order_count": 14,
+    "line_item_count": 20,
+    "units_sold": 84,
+    "average_order_value": "106.60",
+    "first_sale_date": "2026-01-05",
+    "last_sale_date": "2026-04-22"
+  },
+  "revenue_by_region": {
+    "East": "342.58",
+    "North": "685.75",
+    "South": "272.33",
+    "West": "191.75"
+  },
+  "revenue_by_month": {
+    "2026-01": "389.62",
+    "2026-02": "386.17",
+    "2026-03": "574.15",
+    "2026-04": "142.47"
+  },
+  "top_products": [
+    {
+      "product": "Mechanical Keyboard",
+      "units_sold": 7,
+      "revenue": "578.50"
+    },
+    {
+      "product": "Laptop Stand",
+      "units_sold": 7,
+      "revenue": "322.43"
+    },
+    {
+      "product": "Monitor Arm",
+      "units_sold": 4,
+      "revenue": "256.75"
+    }
+  ],
+  "skipped_rows": [
+    {
+      "line": 12,
+      "reason": "date is not in YYYY-MM-DD format: '2026-02-30'"
+    },
+    {
+      "line": 14,
+      "reason": "quantity must be greater than zero: 0"
+    },
+    {
+      "line": 19,
+      "reason": "product is empty"
+    },
+    {
+      "line": 23,
+      "reason": "unit_price cannot be negative: -65.00"
+    },
+    {
+      "line": 24,
+      "reason": "discount_pct must be between 0 and 100: 120"
+    }
+  ]
+}

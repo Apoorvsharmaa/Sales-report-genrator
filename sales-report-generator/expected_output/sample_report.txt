@@ -1,0 +1,36 @@
+SALES REPORT
+============
+Date filter       : any to any
+Sales period      : 2026-01-05 to 2026-04-22
+Total revenue     : 1492.41
+Orders            : 14
+Line items        : 20
+Units sold        : 84
+Avg order value   : 106.60
+
+Revenue by region
+-----------------
+  East                  342.58
+  North                 685.75
+  South                 272.33
+  West                  191.75
+
+Revenue by month
+----------------
+  2026-01               389.62
+  2026-02               386.17
+  2026-03               574.15
+  2026-04               142.47
+
+Top products
+------------
+  1. Mechanical Keyboard       578.50  (7 units)
+  2. Laptop Stand              322.43  (7 units)
+  3. Monitor Arm               256.75  (4 units)
+
+Skipped rows: 5
+  line 12: date is not in YYYY-MM-DD format: '2026-02-30'
+  line 14: quantity must be greater than zero: 0
+  line 19: product is empty
+  line 23: unit_price cannot be negative: -65.00
+  line 24: discount_pct must be between 0 and 100: 120

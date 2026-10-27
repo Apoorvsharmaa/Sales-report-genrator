@@ -1,0 +1,14 @@
+[project]
+name = "sales-report-generator"
+version = "1.0.0"
+description = "Generate a revenue report (JSON or text) from a CSV file of sales line items."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

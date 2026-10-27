@@ -1,0 +1,6 @@
+# Runtime dependencies: none.
+# The application and its test suite use only the Python standard library
+# (csv, decimal, datetime, argparse, json, unittest).
+#
+# Optional, if you prefer pytest as the test runner:
+#   pip install -r requirements-dev.txt
